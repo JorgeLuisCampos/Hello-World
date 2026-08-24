@@ -1,40 +1,66 @@
 ---
-
 name: "🐛 Bug Report"
-about: "Reportar un error para ayudarnos a mejorar el proyecto."
-title: "[BUG] - Descripción corta del error"
+about: "Reportar un error o comportamiento inesperado en el proyecto."
+title: "[BUG] Descripción corta del error"
 labels: bug
 assignees: ""
+---
+
+## Verificación previa
+
+Antes de reportar, confirma lo siguiente:
+
+- [ ] Busqué en los issues existentes y este error no está reportado
+- [ ] El error ocurre en la versión más reciente del proyecto
+- [ ] El error es reproducible (puedo hacer que ocurra de nuevo)
 
 ---
 
-## 🐛 Bug Report
+## Descripción del error
 
-### Descripción
+Describe claramente qué está pasando mal. Una sola oración que resuma el problema.
 
-Describe claramente el error que has encontrado. Incluye detalles sobre cómo se presenta el problema.
+---
 
-### Pasos para reproducir
+## Pasos para reproducir
 
-1.⁠ ⁠Ir a '...'
-2.⁠ ⁠Hacer clic en '...'
-3.⁠ ⁠Describir cualquier otra acción hasta que ocurra el problema.
-4.⁠ ⁠Error que aparece: '...'
+1. Ir a '...'
+2. Hacer clic en '...'
+3. Completar el siguiente paso '...'
+4. El error que aparece es: '...'
 
-### Comportamiento esperado
+---
 
-Describe lo que esperabas que ocurriera al realizar los pasos anteriores.
+## Comportamiento actual
 
-### Capturas de pantalla o registros
+¿Qué está ocurriendo? Describe lo que ves.
 
-Si es posible, añade capturas de pantalla o registros de errores.
+---
 
-### Entorno
+## Comportamiento esperado
 
-•⁠  ⁠Sistema operativo: [p. ej., Windows 10, macOS Catalina]
-•⁠  ⁠Navegador y versión: [p. ej., Chrome 87, Safari 14]
-•⁠  ⁠Versión del proyecto: [p. ej., 1.0.0]
+¿Qué debería ocurrir en su lugar?
 
-### Información adicional
+---
 
-Cualquier otra información relevante.
+## Capturas de pantalla o mensajes de error
+
+Si aplica, agrega capturas de pantalla o copia el mensaje de error exacto que aparece.
+
+```
+(pega aquí el mensaje de error si hay uno)
+```
+
+---
+
+## Entorno
+
+- **Sistema operativo:** [ej. macOS 15, Windows 11]
+- **Navegador y versión:** [ej. Chrome 125, Safari 17]
+- **Versión del proyecto:** [ej. v0.1.1 — visible en la pantalla de la herramienta]
+
+---
+
+## Información adicional
+
+Cualquier contexto extra que ayude a entender o reproducir el error.
